@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get User Profile from GitHub</title>
+  <link rel="shortcut icon" href="images/github_icon.png">
+  <link rel="stylesheet" href="styles/searchGitHub.css">
+  <link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <h1>GitHub Users Information</h1>
+      <p>Looking for great stuffs on GitHub? Search for users and repositories here...</p>
+    </header>
+
+    <div id="status">
+    </div>
+
+    <div id="search">
+      <form id="searchForm">
+        <input type="text" id="searchField" placeholder="Enter a GitHub username or repository..." /><br /><br />
+        <input type="submit" value="Search Users" id="searchUsersButton" />
+        <input type="button" value="Search Repos" id="searchReposButton" />
+      </form>
+    </div>
+
+    <div id="results">
+      <!-- <ul id="resultsList">
+        <li class="lists"><img src="images/andela-43.jpg" alt="andela pix 1" /><br /><br />
+            Login: <label>andela-username</label><br />
+            id: <label>1234567</label><br />
+            Score: <label>24.473824</label><br />
+            Type: <label>User</label><br />
+            <a href="https://github.com/andela">Open Profile</a><br /><br />
+
+            <ol id="repoList">Repositories:
+              <li>Exercises<br /><a href="https://github.com/andela-fadebayo/Exercises">View Repo</a></li>
+              <li>GoogleClone<br /><a href="https://github.com/andela-fadebayo/GoogleClone">View Repo</a></li>
+              <li>HotCold<br /><a href="https://github.com/andela-fadebayo/HotCold">View Repo</a></li>
+            </ol>
+
+        </li>
+        <li class="lists"><img src="images/andela-44.jpg" alt="andela pix 2" /><br /><br />
+            Login: <label>my_username</label><br />
+            id: <label>1234567</label><br />
+            Score: <label>24.473824</label><br />
+            Type: <label>User</label><br />
+            <a href="https://github.com/andela">Open Profile</a>
+        </li> -->
+      </ul>
+    </div>
+
+    <footer>
+      Andela GitHub API | Fiyin Adebayo | &copy; 2014
+    </footer>
+  </div>
+  
+  <script src="scripts/jquery-1.11.1.js"></script>
+  <!-- // <script src="scripts/search.js"></script> -->
+  <script src="scripts/searchGitHub_olp.js"></script>
+</body>
+</html>
